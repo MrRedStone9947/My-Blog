@@ -1,6 +1,7 @@
 var yes=0,no=0;
 function get(){
     var v=hex_md5(document.getElementById("in").value);
+    alert(v);
     if(v=="667ff118ef6d196c96313aeaee7da519"){
         if(yes<=10){
             alert("密码正确！……但是神魔都没有发生");
