@@ -12,7 +12,7 @@ function get(){
         yes+=1;
     }
     else{
-        alert("你没逝吧");
+        alert("你没逝吧，这都能输错，真的是牛波一");
         no+=1;
         if(no>=10){
             window.location.replace('https://www.bilibili.com/video/BV1uT4y1P7CX')

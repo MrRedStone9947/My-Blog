@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MD5加密</title>
+    </head>
+    <body>
+        <script src="http://redstone.62148310.xyz/static/plugins/md5.js">
+            function f(){
+                var v=document.getElementById("in").value;
+                var cipher=hex_md5(v);
+                document.getElementById("output").innerHTML=cipher;
+            }
+        </script>
+        <div>
+            <input type="text" id="in"/>
+            <button onclick="f()">转换</button>
+        </div>
+        <p id="output"></p>
+    </body>
+<html/>
