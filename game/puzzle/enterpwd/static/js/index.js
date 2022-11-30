@@ -1,6 +1,6 @@
 var ans_list=['11451411451454188','WDNMDJNTM'];
 var href_list=['truelevels/level1','truelevels/level2'];
-var id=-1;
+id=-1;
 function get(){
     alert(id);
     var v=document.getElementById("in").value;
