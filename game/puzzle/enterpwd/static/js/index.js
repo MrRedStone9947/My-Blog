@@ -14,10 +14,6 @@ function get(){
 }
 function enterPwd(index){
     window.location.href='http://redstone.62148310.xyz/game/puzzle/enterpwd';
-    $.ajax({
-        async:false,
-        success:function(){
-            id=index;
-        }
-    })
+    id=1;
+    console.log(id);
 }
