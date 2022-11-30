@@ -1,4 +1,4 @@
-document.write("<script src="http://redstone.62148310.xyz/static/plugins/md5.js"></script>")
+//document.write("<script src="http://redstone.62148310.xyz/static/plugins/md5.js"></script>")
 var yes=0,no=0;
 function get(){
     var v=hex_md5(document.getElementById("in").value);
