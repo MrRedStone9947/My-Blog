@@ -1,5 +1,17 @@
-var ans_list=[1,2,3,4,5,6,7];
+var ans_list=['11451454188','WDNMDJNTM'];
+var href_list=['truelevels/level1','truelevels/level2'];
+var id=-1;
+function get(){
+    var v=document.getElementById("in").value;
+    if(v==ans_list[id-1]){
+        window.location.href='http://redstone.62148310.xyz/game/puzzle/'+href_list[id-1];
+    }
+    else{
+        alert("恭喜你，密码错了!")
+        window.location.href='http://redstone.62148310.xyz';
+    }
+}
 function enterPwd(index){
-    alert(ans_list[0]);
-    alert(index)
+    window.location.href='http://redstone.62148310.xyz/game/puzzle/enterpwd';
+    id=index;
 }
