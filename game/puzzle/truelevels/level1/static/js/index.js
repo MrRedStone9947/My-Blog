@@ -12,7 +12,12 @@ function get(){
         document.getElementById('t3').innerHTML='(AB+2CD)/EF*AB*EF/AB+2EF-EF=';
     }
     else if(v=='bcc2f57d3913ab43ccaa0'+'4d92503e9ba'&&f==1){
-        document.getElementById('hint').innerHTML='asdasd';
+        var ans1='本关秘钥:Cyka';
+        var ans2='Blyat<';
+        var ans3='br>下一关提';
+        var ans4='示:truelev';
+        var ans5='els/level2';
+        document.getElementById('hint').innerHTML=ans1+ans2+ans3+ans4+ans5;
         document.getElementById('laugh').innerHTML='';
     }
     else{
