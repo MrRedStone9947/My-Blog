@@ -14,7 +14,6 @@ function get(){
         document.getElementById('hint').innerHTML=ans1+ans2+ans3+ans4+ans5;
     }
     else{
-        console.log(f);
 //        if(f==1){
 //            document.getElementById('').innerHTML='';
 //        }
