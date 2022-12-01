@@ -21,7 +21,6 @@ function get(){
         document.getElementById('laugh').innerHTML='';
     }
     else{
-        console.log(f);
         if(f==1){
             document.getElementById('laugh').innerHTML='yee，你可太拉了';
         }
