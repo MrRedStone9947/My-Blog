@@ -22,7 +22,7 @@ function get(){
             document.getElementById('in').value='NYEH HEH HEH HEH';
         }
         if(f==0){
-            document.getElementById('in').value='不是吧不是吧，这都6606年了，还有人不玩上一关？？？';
+            document.getElementById('in').value='不是吧不是吧，这都6606年了！还有人不玩上一关？？？';
         }
     }
 }
