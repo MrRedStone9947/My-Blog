@@ -16,6 +16,11 @@ function get(){
         document.getElementById('laugh').innerHTML='';
     }
     else{
-        document.getElementById('laugh').innerHTML='这都错了，您不会没做上一关吧！';
+        if(f==0){
+            document.getElementById('laugh').innerHTML='这都错了，您不会没做上一关吧！';
+        }
+        else{
+            document.getElementById('laugh').innerHTML='yee，你课太拉了';
+        }
     }
 }
