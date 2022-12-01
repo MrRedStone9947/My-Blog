@@ -11,7 +11,8 @@ function get(){
             var ans2="5141145";
             var ans3="1454188<b";
             var ans4="r>下一关提示:"
-            document.getElementById("hint").innerHTML=ans1+ans2+ans3+ans4;
+            var ans5="/level1/"
+            document.getElementById("hint").innerHTML=ans1+ans2+ans3+ans4+ans5;
         }
         yes+=1;
     }
