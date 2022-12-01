@@ -19,7 +19,7 @@ function get(){
 //            document.getElementById('').innerHTML='';
 //        }
         if(f==0){
-            document.getElementById('in').placeholder='这都能输错，你不会上一关没玩吧！';
+            document.getElementById('in').value='这都能输错，你不会上一关没玩吧！';
         }
     }
 }
