@@ -2,7 +2,7 @@ var f=0;
 function get(){
     var v=hex_md5(document.getElementById('in').value);
     console.log(v);
-    if(v=='8139ca2f8d66'+'2f052a5b9eff9a344e7e'&&f==0){
+    if(v=='4a4b95e23'+'784821549837819d97cbfe2'&&f==0){
         f=1;
         document.getElementById('title').innerHTML='恭喜你通过了前面的小关卡，现在来开始第一关吧！';
         document.getElementById('laugh').innerHTML='';
