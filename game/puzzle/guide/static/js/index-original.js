@@ -7,7 +7,7 @@ function get(){
         }
         else{
             alert("密码正确！……似乎有所不同");
-            var ans1="下一关密码:114";
+            var ans1="本关秘钥:114";
             var ans2="5141145";
             var ans3="1454188<b";
             var ans4="r>下一关提示:"

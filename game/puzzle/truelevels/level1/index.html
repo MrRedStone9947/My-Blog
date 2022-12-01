@@ -4,11 +4,13 @@
         <title>第1关</title>
     </head>
     <body>
-        <script src="http://redstone.62148310.xyz/game/puzzle/enterpwd/static/js/index.js"></script>
-        <script type="text/javascript">
-            id=1;
-            window.location.href='http://redstone.62148310.xyz/game/puzzle/enterpwd';
-        </script>
-        <h1>恭喜你通过了前面的测试小关卡！</h1>
+        <script src="http://redstone.62148310.xyz/static/plugins/md5.js"></script>
+        <script src="./static/js/index.js"></script>
+        <div>
+            <h4 id="title">先输入上一关给的密码吧!</h4>
+            <input type="text" id="in"/>
+            <button onclick="get()">确定</button>
+            <p id="hint"></p>
+        </div>
     </body>
 </html>
