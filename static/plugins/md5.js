@@ -26,12 +26,6 @@ function hex_hmac_md5(key, data) { return binl2hex(core_hmac_md5(key, data)); }
 function b64_hmac_md5(key, data) { return binl2b64(core_hmac_md5(key, data)); }
 function str_hmac_md5(key, data) { return binl2str(core_hmac_md5(key, data)); }
 
-export.hex_md5=hex_md5;
-export.b64_md5=b64_md5;
-export.str_md5=str_md5;
-export.hex_hmac_md5=hex_hmac_md5;
-export.b64_hmac_md5=b64_hmac_md5;
-export.str_hmac_md5=str_hmac_md5;
 
 
 /*
