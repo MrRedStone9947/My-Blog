@@ -3,7 +3,7 @@ if(localStorage.getItem("redstone.62148310.xyz/game/puzzle/truelevels/level4.vis
     window.location.replace('http://redstone.62148310.xyz');
 }
 localStorage.setItem("redstone.62148310.xyz/game/puzzle/truelevels/level4.vis",1);
-window.onunload=function(){
+window.onbeforeunload=function(){
     window.location.replace('https://www.bilibili.com/video/BV1uT4y1P7CX');
 }
 function jump(){
