@@ -1,9 +1,12 @@
 var f=0;
-if(localStorage.getItem("redstone.62148310.xyz/game/puzzle/truelevels/level4.vis"==1)){
+if(localStorage.getItem("redstone.62148310.xyz/game/puzzle/truelevels/level4.vis")==1){
     window.location.replace('http://redstone.62148310.xyz');
 }
+localStorage.setItem("redstone.62148310.xyz/game/puzzle/truelevels/level4.vis",1);
+window.onunload=function(){
+    window.location.replace('https://www.bilibili.com/video/BV1uT4y1P7CX');
+}
 function jump(){
-    localStorage.setItem("redstone.62148310.xyz/game/puzzle/truelevels/level4.vis",1);
     window.location.replace('https://www.bilibili.com/video/BV1uT4y1P7CX');
 }
 function get(){
@@ -12,6 +15,8 @@ function get(){
         f=1;
         document.getElementById('title').innerHTML='好的请再输入前面某一关的秘钥';
         document.getElementById('t1').innerHTML='本页面将于2分钟后过期，快点输入！！';
+        document.getElementById('t2').innerHTML='不要刷新，后果自负！';
+        document.getElementById('t3').innerHTML='不要关闭页面，后果自负！！';
         document.getElementById('laugh').innerHTML='';
         document.getElementById('in').value='';
         setTimeout(jump,2*60*1000);
