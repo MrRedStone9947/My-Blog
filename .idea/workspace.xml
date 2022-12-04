@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1ea9b707-f048-427a-9013-0d4779e3a5cd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/puzzle/pwd.txt" beforeDir="false" afterPath="$PROJECT_DIR$/game/puzzle/pwd.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/puzzle/truelevels/level6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/game/puzzle/truelevels/level6/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/puzzle/truelevels/level6/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/game/puzzle/truelevels/level6/static/js/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +26,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Python workspace/反编译/自动反编译.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/game/puzzle/truelevels/level6/real" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\My-Website\game\puzzle\truelevels\level6\real" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GitHub\My-Website\test\static\js" />
       <recent name="D:\GitHub\My-Website\game\puzzle\guide\static" />
