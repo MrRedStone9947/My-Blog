@@ -1,9 +1,3 @@
-var v=0;
-
-function b(){
-    console.log(v);
-}
-function asd(){
-    v=1;
-    console.log(v);
-}
+var str=`asd
+    asdasd`
+console.log(str);
