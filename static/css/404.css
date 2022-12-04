@@ -1,0 +1,25 @@
+#top_img{
+    width:288px;
+    height:170px;
+    margin:0 auto;
+}
+#top_img_inner{
+    margin-top:100px;
+    margin-left:72px;
+}
+.text{
+    color:gray;
+    text-align:center;
+}
+#top_text{
+    font-weight:bold;
+    font-size:66px;
+    margin-bottom:0px;
+}
+#second_text{
+    font-size:10px;
+    font-style:italic;
+}
+#third_text{
+    font-size:16px;
+}
