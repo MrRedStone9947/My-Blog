@@ -4,15 +4,22 @@ var cnt=0;
 function check(){
     if(cnt==16){
         if(cur.toString()==ans.toString()){
-            alert("nb");
+            var ans1='本关秘钥:Bin';
+            var ans2='aryCode<br>';
+            var ans3='下一关提示:truel';
+            var ans4='evels';
+            var ans5='/level6';
+            document.getElementById("laugh").innerHTML='';
+            document.getElementById("hint").innerHTML=ans1+ans2+ans3+ans4+ans5;
         }
         else{
-            alert("sb");
+            document.getElementById("laugh").innerHTML="弱诶，拜托，你很弱诶！";
         }
         cur=[];
         cnt=0;
     }
 }
+
 var f=0;
 function get(){
     var v=hex_md5(document.getElementById('in').value);
@@ -98,9 +105,7 @@ function get(){
                 <font color="red">左</font>
                 <button onclick="l16()">选我!</button>
                 <button onclick="r16()">选我!</button>
-            </div>
-            <p id="laugh"></p>
-            <p id="hint"></p>`;
+            </div>`;
         setInterval(check,100);
     }
     else{
