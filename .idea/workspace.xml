@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1ea9b707-f048-427a-9013-0d4779e3a5cd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/puzzle/pwd.txt" beforeDir="false" afterPath="$PROJECT_DIR$/game/puzzle/pwd.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/puzzle/truelevels/level5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/game/puzzle/truelevels/level5/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/puzzle/truelevels/level5/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/game/puzzle/truelevels/level5/static/js/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
