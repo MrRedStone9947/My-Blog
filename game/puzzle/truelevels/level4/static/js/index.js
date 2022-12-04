@@ -3,9 +3,6 @@ if(localStorage.getItem("redstone.62148310.xyz/game/puzzle/truelevels/level4.vis
     window.location.replace('http://redstone.62148310.xyz');
 }
 localStorage.setItem("redstone.62148310.xyz/game/puzzle/truelevels/level4.vis",1);
-window.onbeforeunload=function(){
-    window.location.replace('https://www.bilibili.com/video/BV1uT4y1P7CX');
-}
 function jump(){
     window.location.replace('https://www.bilibili.com/video/BV1uT4y1P7CX');
 }
@@ -22,11 +19,11 @@ function get(){
         setTimeout(jump,2*60*1000);
     }
     else if(v=='68a8a'+'7df567c08f6a8ff4f8efa8e1ae6'&&f==1){
-        var ans1='1';
-        var ans2='1';
-        var ans3='2';
-        var ans4='3';
-        var ans5='5';
+        var ans1='本关秘钥:Really';
+        var ans2='MyGood?<br';
+        var ans3='>下一关提示:tru';
+        var ans4='elevels/lev';
+        var ans5='el5';
         document.getElementById('hint').innerHTML=ans1+ans2+ans3+ans4+ans5;
         document.getElementById('laugh').innerHTML='';
     }
