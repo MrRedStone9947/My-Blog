@@ -1,3 +1,4 @@
+
 var f=0;
 if(localStorage.getItem("redstone.62148310.xyz/game/puzzle/truelevels/level4.vis")==1){
     window.location.replace('http://redstone.62148310.xyz');
