@@ -4,11 +4,12 @@ var cur=[0,0,0,0,0];
 function plus(num,line){
     cur[line-1]+=num;
     if(cur.toString()==ans.toString()){
-        var ans1='1';
-        var ans2='1';
-        var ans3='2';
-        var ans4='3';
-        var ans5='5';
+        var ans1='本关秘钥:RedSt';
+        var ans2='one++<br>';
+        var ans3='下一关提';
+        var ans4='示:truel';
+        var ans5='evels/level7';
+        document.getElementById('laugh').innerHTML="诶呀嘿，厉害啊";
         document.getElementById('hint').innerHTML=ans1+ans2+ans3+ans4+ans5;
     }
     else if(cur[line-1]>ans[line-1]){
