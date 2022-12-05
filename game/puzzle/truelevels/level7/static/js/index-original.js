@@ -15,7 +15,7 @@ function check(){
         document.getElementById('hint').innerHTML=ans1+ans2+ans3+ans4+ans5;
     }
     else{
-        alert("太逊了，不对");
+        alert("逊诶，太逊了！");
     }
     cur=[0,0,0,0,0,0];
 }
