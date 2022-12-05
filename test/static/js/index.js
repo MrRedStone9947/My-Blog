@@ -1,3 +1,3 @@
-var str=`asd
-    asdasd`
-console.log(str);
+var str=`asdasd`
+str+=`abb`
+console.log(str)
