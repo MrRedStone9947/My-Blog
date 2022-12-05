@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1ea9b707-f048-427a-9013-0d4779e3a5cd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/puzzle/truelevels/level7/static/js/index-original.js" beforeDir="false" afterPath="$PROJECT_DIR$/game/puzzle/truelevels/level7/static/js/index-original.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +23,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/game/puzzle/truelevels/level6/real" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Python workspace/爬虫" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
